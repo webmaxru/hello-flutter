@@ -8,8 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "serve": "flutter run -d chrome",
-    "build": "flutter build web"
+    "serve": "flutter run -d chrome"
   },
   "author": "",
   "license": "ISC",
