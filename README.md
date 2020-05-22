@@ -1,16 +1,29 @@
-# hello_flutter
-
-A new Flutter project.
+# A Hello World Flutter project
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You need to have Flutter SDK installed on your computer in order to build and run this project.
 
-A few resources to get you started if this is your first Flutter project:
+Follow the steps:
+- [Flutter SDK installation](https://flutter.dev/docs/get-started/install). There is no need to install Android Studio if you only plan to build a web app.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Then, to enable Flutter Web run:
+```
+ flutter channel beta
+ flutter upgrade
+ flutter config --enable-web
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run your web app
+```
+flutter run -d chrome
+```
+
+Build your wed app to build/web folder:
+```
+ flutter build web
+```
+
+To deploy Flutter Web app to Azure Static Web Apps service use this [GitHub Action](https://github.com/webmaxru/hello-flutter/blob/master/.github/workflows/azure-static-web-apps-gentle-sky-0b647711e.yml):
+
+More details: [Building Flutter web app](https://flutter.dev/docs/get-started/web)
