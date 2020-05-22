@@ -1,0 +1,17 @@
+{
+  "name": "hello-flutter",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "serve": "flutter run -d chrome",
+    "build": "flutter build web"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
